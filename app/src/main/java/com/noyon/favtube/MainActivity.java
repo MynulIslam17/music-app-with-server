@@ -180,10 +180,11 @@ public class MainActivity extends AppCompatActivity {
 
   // back pressed method for set aleart dialob box
 
-
     @Override
     public void onBackPressed() {
-       // super.onBackPressed();
+
+
+        // super.onBackPressed(); //<------- this line responsible for go back
 
 
        AlertDialog.Builder dialog=new AlertDialog.Builder(MainActivity.this);
